@@ -457,8 +457,11 @@ body {
 }
 
 @media (max-width: 1110px) {
-    .menu {
-        margin-right: 0
+    .bike__inner{
+        flex-wrap: wrap;
+    }
+    .bike__text{
+        max-width: 100%;
     }
 }
 
